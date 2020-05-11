@@ -10,4 +10,4 @@
   <li>Removing unnecessary columns and creating two separate dataframes for each dataset that matched a sql schema I created</li>
 </ul>
 </p>
-<p>Next, I wrote the dataframes to an RDS instance and loaded the new tables into Postgres.  In Postgres I combined the product review data for two product categories—*books* and *office products*—in the U.S. from 1995 - 2015.</p>
+<p>Next, I wrote the dataframes to an RDS instance and loaded the new tables into Postgres.  In Postgres I combined the product review data for two product categories—<i>books</i> and <i>office products</i>—in the U.S. from 1995 - 2015.</p>
