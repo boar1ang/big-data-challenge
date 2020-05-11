@@ -1,14 +1,7 @@
-create table products (
-    product_id INT PRIMARY KEY NOT NULL,
-    product_parent TEXT,
-    product_title TEXT,
-    product_category TEXT,
-    customer_id TEXT NOT NULL
-
-        );
+-- my_amzn_reviews_db
 
 create table reviews (
-    review_id INT PRIMARY KEY NOT NULL,
+    review_id TEXT PRIMARY KEY NOT NULL,
     star_rating NUMERIC,
     helpful_votes INT,
     total_votes INT,
@@ -19,6 +12,17 @@ create table reviews (
     customer_id TEXT NOT NULL
 
         );
+        
+create table products (
+    product_id TEXT PRIMARY KEY NOT NULL,
+    product_parent TEXT,
+    product_title TEXT,
+    product_category TEXT,
+    review_id TEXT, 
+    FOREIGN KEY (review_id) REFERENCES reviews (review_id)    
+        );
+
+
 
 
 select * from products;
