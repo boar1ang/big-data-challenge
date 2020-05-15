@@ -12,3 +12,4 @@
 </p>
 <p>Next, I wrote the dataframes to an RDS instance and loaded the new tables into Postgres.  In Postgres I combined the product review data for two product categories—<i>books</i> and <i>office products</i>—in the U.S. from 1995 - 2015.</p>
 <p>The final count of unique product reviews (for verified purchases only) in the combined reviews table is 9,706,984. Dropping reviews with 0 votes further reduces the combined dataset to 3.1 million verified reviews.</p>
+![Book Ratings] (https://github.com/boar1ang/big-data-challenge/blob/master/level-2/BookRatings.png)
