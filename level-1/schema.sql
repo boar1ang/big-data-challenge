@@ -23,8 +23,15 @@ create table products (
         );
 
 
-select * from products;
+<<<<<<< HEAD:level-1/schema.sql
+=======
 
+>>>>>>> ccb12ab4fa36f6a99ec79698dcd993bd1c38c6ad:schema.sql
+select * from products;
 select * from reviews;
 
+<<<<<<< HEAD:level-1/schema.sql
 --Over 9 million rows! Must filter and reduce. See 'query.sql'
+=======
+--Over 9 million rows! Must filter and reduce. See 'query.sql'
+>>>>>>> ccb12ab4fa36f6a99ec79698dcd993bd1c38c6ad:schema.sql
