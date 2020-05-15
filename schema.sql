@@ -24,7 +24,7 @@ create table products (
 
 
 
-
 select * from products;
-
 select * from reviews;
+
+--Over 9 million rows! Must filter and reduce. See 'query.sql'
